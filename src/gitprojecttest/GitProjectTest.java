@@ -15,7 +15,7 @@ public class GitProjectTest {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Git test");
+        System.out.println("Git in WorkingOnIt");
         System.out.println("hier verder gewerkt:");// TODO code application logic here
         System.out.println("hier opnieuw verder gewerkt:");    
     }
