@@ -17,7 +17,10 @@ public class GitProjectTest {
     public static void main(String[] args) {
         System.out.println("Git in WorkingOnIt");
         System.out.println("hier verder gewerkt:");// TODO code application logic here
-        System.out.println("hier opnieuw verder gewerkt:");    
+        System.out.println("hier opnieuw verder gewerkt:");   
+        
+        
+        
     }
     
 }
