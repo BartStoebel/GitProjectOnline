@@ -18,9 +18,18 @@ public class GitProjectTest {
         System.out.println("Git in WorkingOnIt");
         System.out.println("hier verder gewerkt:");
         System.out.println("hier opnieuw verder gewerkt:");   
-        
-        
-        
+        String tekst = "Dit is een stukje tekst";
+        String[] arrString = tekst.split(" ",7);
+        for (String a : arrString ){
+            System.out.println(a);
+        }
+       StringBuilder naam = new StringBuilder("Pierre");
+       System.out.println(naam.length());
+       naam.append(' ');
+       naam.insert(0, "De grote ");
+       System.out.println(naam);
+       
+       
     }
     
 }
