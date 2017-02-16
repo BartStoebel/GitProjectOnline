@@ -18,7 +18,7 @@ public class GitProjectTest {
      */
     public static void main(String[] args) {
         System.out.println("Git in Master");
-        System.out.println("Git in WorkingOnIt");
+//        System.out.println("Git in WorkingOnIt");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Geef een zin in:");
 //        String zin = new StringBuilder();
