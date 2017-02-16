@@ -24,7 +24,7 @@ public class GitProjectTest {
         String pal = scanner.nextLine();
         Palindroom palindroom  = new Palindroom();
         System.out.println("Het totaal is: " + palindroom.testPalindroom(pal));
-        //System.out.println("Proficiat : project geslaagd " + pal);
+        System.out.println("Proficiat : project geslaagd " + pal);
 
 
     }
