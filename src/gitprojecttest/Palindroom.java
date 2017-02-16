@@ -19,7 +19,8 @@ public class Palindroom {
                 check = false;
             }
             teller++;
-        }        
+        }     
+        //
         return check;
         
     }
