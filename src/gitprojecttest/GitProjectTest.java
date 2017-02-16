@@ -7,7 +7,7 @@ package gitprojecttest;
 
 /**
  *
- * @author Bart.Stoebel
+ * @author Bart.Stoebel 
  */
 public class GitProjectTest {
 
