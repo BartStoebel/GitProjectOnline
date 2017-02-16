@@ -17,7 +17,7 @@ public class GitProjectTest {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Git in Master");
+//        System.out.println("Git in Master");
         System.out.println("Git in WorkingOnIt");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Geef een zin in:");
@@ -34,6 +34,7 @@ public class GitProjectTest {
             }
         }
         System.out.println(totaal);
+        
 
 
         
