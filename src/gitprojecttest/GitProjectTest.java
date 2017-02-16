@@ -34,6 +34,7 @@ public class GitProjectTest {
             }
         }
         System.out.println(totaal);
+        
 
 
         
