@@ -28,6 +28,7 @@ public class GitProjectTest {
        naam.append(' ');
        naam.insert(0, "De grote ");
        System.out.println(naam);
+       System.out.println("WorkingOnItTestOffline");
        
                
        
