@@ -26,7 +26,7 @@ public class GitProjectTest {
         
         
         System.out.println("Het totaal is: " + rekenaar.reken(som));
-        
+        System.out.println("Proficiat : project geslaagd");
 
 
     }
