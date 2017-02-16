@@ -20,25 +20,12 @@ public class GitProjectTest {
         System.out.println("Git in Master");
 //        System.out.println("Git in WorkingOnIt");
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Geef een zin in:");
-//        String zin = new StringBuilder();
-//        zin.append(scanner.nextLine());
+        System.out.println("Geef een rekensom in:");
+        String som = scanner.nextLine();
+        Rekenaar rekenaar = new Rekenaar();
         
-        String zin = scanner.nextLine();
-        System.out.println(zin);
-        int a = 0;
-        int totaal = 0;
-        for ( a =0; a<zin.length(); a++){
-            if (zin.charAt(a)=='a'||zin.charAt(a)=='e'||zin.charAt(a)=='i'||zin.charAt(a)=='o'||zin.charAt(a)=='u'){
-                //totaal +=1; 
-            }
-        }
-        for (char q : zin.toCharArray()){
-            if (q =='a'||q=='e'||q=='i'||q=='o'||q=='u'){
-                totaal +=1; 
-            }
-        }
-        System.out.println(totaal);
+        
+        System.out.println("Het totaal is: " + rekenaar.reken(som));
         
 
 
